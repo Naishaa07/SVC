@@ -1,0 +1,29 @@
+#text{
+    background-color: #00adb5;
+    height:fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: -15px;
+}
+p{
+    padding: 0;
+    margin:0;
+    color: #eee;
+    
+}
+#qwe:hover .tooltiptext{
+    visibility: visible;
+}
+ .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+  }

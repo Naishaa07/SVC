@@ -1,0 +1,42 @@
+label{
+    font-size: 30px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    color: black
+}
+section button{
+    font-size: medium;
+    width: 100%;
+    font-weight: bold;
+    text-align: left;
+    height: 50px;
+}
+#qwe:hover .tooltiptext{
+    visibility: visible;
+}
+ .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  #buttons button{
+      background-color: #eeeeee;
+     color: #00adb5;
+     border-color: #eee;
+     text-align: center;
+  }
+  #buttons button:hover{
+    background-color: black;
+   color: #eee;
+   border-color: #eee;
+}
+
